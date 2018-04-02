@@ -1,0 +1,20 @@
+@media screen and (max-width:450px) {
+    .filter-options h2 {
+        width:100%;
+    }
+    .filter-options select {
+     width: calc(50% - 20px);
+    }
+    #restaurants-list {
+    padding:0px;
+    }
+  
+    #restaurants-list li
+    {
+        margin:5px;
+        padding:0px 5px;
+        width:calc(100% - 20px);
+        border-radius:5px;
+        text-align:center;
+    }
+}

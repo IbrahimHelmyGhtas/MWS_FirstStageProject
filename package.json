@@ -1,0 +1,7 @@
+{
+  "name": "first stage project",
+  "version": "",
+  "dependencies": {
+    "git-serve": "^0.1.3"
+  }
+}
