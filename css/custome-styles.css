@@ -1,4 +1,6 @@
+
 @media screen and (max-width:450px) {
+    /*For index Page style */
     .filter-options h2 {
         width: 100%;
     }
@@ -18,13 +20,15 @@
             border-radius: 5px;
             text-align: center;
         }
+    /*For Resturnat page style */
 }
 
 @media screen and (min-width:451px) and (max-width:850px) {
-     nav h1 a
-    {
-         font-size: 16pt;
+    /*For index Page style */
+    nav h1 a {
+        font-size: 16pt;
     }
+
     .filter-options {
         display: flex;
         flex-wrap: nowrap;
@@ -44,8 +48,6 @@
     }
 
         #restaurants-list li {
-            /*margin: 5px;
-            padding: 0px 5px;*/
             margin: 15px auto;
             padding: 15px 30px 25px;
             width: calc(100% - 60px);
@@ -62,32 +64,34 @@
             font-size: 13pt;
         }
 
-         #restaurants-list li a {
-        background-color: orange;
-        border-bottom: 3px solid #eee;
-        color: #fff;
-        display: inline-block;
-        font-size: 13pt;
-        margin: 15px 0 0;
-        padding: 12px 60px 14px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+        #restaurants-list li a {
+            background-color: orange;
+            border-bottom: 3px solid #eee;
+            color: #fff;
+            display: inline-block;
+            font-size: 13pt;
+            margin: 15px 0 0;
+            padding: 12px 60px 14px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    /*For Resturnat page style */
 }
 
 
 
-@media screen and  (min-width:851px) {
-
+@media screen and (min-width:851px) {
+    /*For index Page style */
     body {
         width: 1000px;
-        margin:auto;
+        margin: auto;
     }
-    nav h1 a
-    {
-         font-size: 18pt;
+
+    nav h1 a {
+        font-size: 18pt;
     }
+
     .filter-options {
         display: flex;
         flex-wrap: nowrap;
@@ -104,13 +108,11 @@
 
     #restaurants-list {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         padding: 30px 15px 60px;
     }
 
         #restaurants-list li {
-            /*margin: 5px;
-            padding: 0px 5px;*/
             margin: 15px auto;
             padding: 15px 30px 25px;
             width: calc(50% - 80px);
@@ -127,16 +129,18 @@
             font-size: 15pt;
         }
 
-         #restaurants-list li a {
-        background-color: orange;
-        border-bottom: 3px solid #eee;
-        color: #fff;
-        display: inline-block;
-        font-size: 15pt;
-        margin: 15px 0 0;
-        padding: 12px 60px 14px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+        #restaurants-list li a {
+            background-color: orange;
+            border-bottom: 3px solid #eee;
+            color: #fff;
+            display: inline-block;
+            font-size: 15pt;
+            margin: 15px 0 0;
+            padding: 12px 60px 14px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+    /*For Resturnat page style */
 }
