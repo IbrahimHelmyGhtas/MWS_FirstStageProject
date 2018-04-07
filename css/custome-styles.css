@@ -44,24 +44,27 @@
         }
 
     #restaurants-list {
+        display: flex;
+        flex-wrap: wrap;
         padding: 30px 15px 60px;
     }
 
         #restaurants-list li {
-            margin: 15px auto;
+            margin: 10px;
             padding: 15px 30px 25px;
-            width: calc(100% - 60px);
+            width: calc(50% - 85px);
             border-radius: 5px;
             text-align: center;
         }
 
             #restaurants-list li h1 {
-                font-size: 16pt;
-                line-height: 1.5;
+                  min-height:50px;
+                font-size: 14pt;
+                line-height: 1.3;
             }
 
         #restaurants-list p {
-            font-size: 13pt;
+            font-size: 12pt;
         }
 
         #restaurants-list li a {
@@ -69,12 +72,16 @@
             border-bottom: 3px solid #eee;
             color: #fff;
             display: inline-block;
-            font-size: 13pt;
+            font-size: 12pt;
             margin: 15px 0 0;
-            padding: 12px 60px 14px;
+            padding: 12px 40px 14px;
             text-align: center;
             text-decoration: none;
             text-transform: uppercase;
+        }
+
+        #restaurants-list .restaurant-img {
+            min-height: 200px;
         }
     /*For Resturnat page style */
 }
@@ -113,20 +120,22 @@
     }
 
         #restaurants-list li {
-            margin: 15px auto;
+            
+            margin: 10px;
             padding: 15px 30px 25px;
-            width: calc(50% - 80px);
+            width: calc(33.3% - 85px);
             border-radius: 5px;
             text-align: center;
         }
 
             #restaurants-list li h1 {
-                font-size: 18pt;
-                line-height: 1.5;
+                min-height:50px;
+                font-size: 14pt;
+                line-height: 1.2;
             }
 
         #restaurants-list p {
-            font-size: 15pt;
+            font-size: 12pt;
         }
 
         #restaurants-list li a {
@@ -134,12 +143,16 @@
             border-bottom: 3px solid #eee;
             color: #fff;
             display: inline-block;
-            font-size: 15pt;
+            font-size: 12pt;
             margin: 15px 0 0;
             padding: 12px 60px 14px;
             text-align: center;
             text-decoration: none;
             text-transform: uppercase;
+        }
+
+        #restaurants-list .restaurant-img {
+            min-height: 200px;
         }
 
     /*For Resturnat page style */
