@@ -1,28 +1,36 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+﻿
+Project Title
+First stage of my project in MWS Scolarship.
 
-## Project Overview: Stage 1
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+See deployment for notes on how to deploy the project on a live system.
+You can clone project with url : https://github.com/IbrahimHelmyGhtas/MWS_FirstStageProject.git
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+Prerequisites
+You need to install Git 
 
-### Specification
+Installing
+Download git from https://git-scm.com/downloads
+and install it 
+Follow this instructions to clone the project
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+On GitHub, navigate to the main page of the repository.
 
-### What do I do from here?
+Note: If the repository is empty, you can manually copy the repository page's URL from your browser and skip to step four.
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+Clone or download buttonUnder the repository name, click Clone or download.
+Clone URL buttonIn the Clone with HTTPs section, click  to copy the clone URL for the repository.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+Open Git Bash.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+Change the current working directory to the location where you want the cloned directory to be made.
 
-### Note about ES6
+Type git clone, and then paste the URL you copied in Step 2.
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+git clone  https://github.com/IbrahimHelmyGhtas/MWS_FirstStageProject.git
+Press Enter. Your local clone will be created.
 
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-
+Unpacking objects: 100% (10/10), done.
